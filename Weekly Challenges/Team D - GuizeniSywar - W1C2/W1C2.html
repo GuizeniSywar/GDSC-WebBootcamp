@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC Bootcamp Enrollment Form</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <h1>GDSC ESSTHS Web Bootcamp</h1>
+        <img src="/essths.jpg" alt="GSDC-ESSTHS">
+        <h2>Enrollment form</h2>
+        <div class="cont">
+        <form>
+            <input type="text" name="First Name" id="fn" placeholder="First Name">
+            <input type="text" name="Last Name" id="ln" placeholder="Last Name">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="tel" name="number" id="number" placeholder="Phone Number" pattern="[2-9]{1}[0-9]{7}">
+            <div class="lastline">
+            <select id="team" name="team">
+                <option value="Team A" selected>Team A</option>
+                <option value="Team B">Team B</option>
+                <option value="Team C">Team C</option>
+                <option value="Team D">Team D</option>
+                <option value="Team E">Team E</option>
+                <option value="Team F">Team F</option>
+              </select>
+            <input type="submit" name="submit" value="Send">
+            </div>
+        </form>
+        <div class="fb">
+            <h2>Rate Us</h2>
+            <textarea placeholder="Describe your experience(optional)"></textarea>
+            <div class="stars">
+                <input type="radio" id="s1" name="star"><label for="s1"></label>
+                <input type="radio" id="s2" name="star"><label for="s2"></label>
+                <input type="radio" id="s3" name="star"><label for="s3"></label>
+                <input type="radio" id="s4" name="star"><label for="s4"></label>
+                <input type="radio" id="s5" name="star"><label for="s5"></label>
+            </div>
+            <input type="submit" name="submit" value="Send">
+        </div>
+        </div>
+    </div>
+</body>
+</html>

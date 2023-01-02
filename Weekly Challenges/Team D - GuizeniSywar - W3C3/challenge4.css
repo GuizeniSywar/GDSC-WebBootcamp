@@ -1,0 +1,124 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(/bg3.svg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px auto;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 180px;
+    padding-left: 35px;
+}
+.logoimg{
+    width: auto;
+    max-height: 180px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    width: 65%;
+    margin: 20px auto 0 auto;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: rgb(241, 233, 230,0.8);
+    transition: .5s;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul li:hover{
+    background-color: #140003;
+    color: #F1E9E6;
+    transform: scale(1.1);
+}
+
+nav ul a:visited{
+    color: black;
+    background-color: rgb(241, 233, 230,0.8);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+.cont h1{
+    text-align: center;
+    font-size: 40px;
+    width: 60%;
+    margin: 10px auto;
+    color: #F1E9E6;
+}
+.cont h2{
+    font-size: 30px;
+    margin: 10px auto;
+    color: #F1E9E6;
+    background-color: rgba(20, 0, 3, 0.512);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+img{
+    margin-top: -8%;
+    margin-bottom: -5%;
+    height: 450px;
+    width: auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.foorter ul{
+    margin-top: -10%;
+}
+.footer li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+.footer a{
+    transition: .5s;
+    color: #F1E9E6;
+}
+.footer a:hover{
+    color: #140003;
+}
