@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 85px;
+    border-bottom: 3px solid #e8491d;
+    background-color: #35424a;
+    overflow: hidden;
+}
+.logoo{
+    width: 50%;
+}
+.logo{
+    font-size: 28px;
+    margin-left: 10%;
+    color: white;
+}
+span{
+    color: #e8491d;
+}
+.links{
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    width: 50%;
+    list-style: none;
+    margin-right: -5%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 5%;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50vh;
+    background-image: url("/project 2/img/showcase.jpg");
+    background-position: center;
+    overflow: hidden;
+}
+.container h1{
+    font-size: 45px;
+    margin: 5% 0;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.container p{
+    width: 70%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.newsletter{
+    width: 100%;
+    height: 80px;
+    background-color: #35424a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.newsletter h2{
+    margin-left: 10%;
+    color: white;
+    font-size: 20px;
+}
+.newsletter form{
+    margin-right: 15%;
+}
+input[type="email"]{
+    height: 35px;
+    width: 250px;
+    border: 2px solid black;
+}
+input[type="submit"]{
+    height: 30px;
+    width: 75px;
+    background-color: #e8491d;
+    border: none;
+    margin-left: 15px;
+    font-size: 12px;
+    color: white;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.card{
+    width: 25%;
+    text-align: center;
+    height: 100%;
+    margin-top: 10px;
+}
+.card img{
+    width: 30%;
+    height: auto;
+    margin: 15px auto;
+}
+.title{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.text{
+    width: 75%;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #e8491d;
+    padding-top: 25px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
