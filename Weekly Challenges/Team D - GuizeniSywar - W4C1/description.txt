@@ -1,0 +1,16 @@
+
+week-4-challenges
+
+EASY
+
+description: 
+Build a transparent Login form and add a background image (./img/background), 
+Avatar-icon (./img/avatar-icon) , to make this work there will be two forms
+The Login form and the Forget password one . 
+Elements : 
+Login form : UserName , Password
+Forget pwd : 
+Email 
+Bonus : 
+Make the page responsive using Flexbox 
+Apply animation style to the elements
