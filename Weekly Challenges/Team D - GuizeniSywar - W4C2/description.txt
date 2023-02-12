@@ -1,0 +1,11 @@
+
+week-4-challenges
+
+Medium
+
+Description: 
+Build a landing page for a social media app that has 2 main sections; 
+a hero section and a featured section.
+NB:  you can look at the final result in the preview folder.
+Bonus :
+Make the page responsive using Flexbox and Apply animation style to the elements.

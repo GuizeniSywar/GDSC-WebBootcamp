@@ -1,0 +1,224 @@
+*{
+    font-family: 'DM Sans', sans-serif;;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background: url("/Weekly Challenges/Team D - GuizeniSywar - W4C2/img/bg-hero-desktop.svg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 35px;
+    margin-left: 4%;
+}
+.button1{
+    margin-top: 30px;
+    margin-right: 3%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(92, 92, 92);
+    box-shadow:  0 0 10px rgba(0,0,0,0.3);
+    font-size: 16px;
+    border: none;
+    width: 10%;
+    min-width: 130px;
+    height: 40px;
+    min-height: 40px;
+    border-radius: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: rgb(92, 92, 92);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 130px auto;
+}
+.paragraph-main{
+    width: 40%;
+    margin-right: 5%;
+}
+.paragraph-main h1{
+    font-size: 35px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.paragraph-main p{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.img-main{
+    width: 40%;
+    margin-left: 5%;
+}
+.button2{
+    width: 42%;
+    min-width: 195px;
+    height: 47px;
+    margin-top: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(179, 107, 154);
+    box-shadow:  0 0 20px rgba(0,0,0,0.5);
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    transition: .4s;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: white;
+    color: rgb(179, 107, 154);
+    transform: scale(1.1);
+    font-weight: 600;
+}
+.scroll{
+    width: 100%;
+}
+.card{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 35px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3)}
+.card:first-child{
+    margin-top: 200px;
+}
+.card img{
+    width: 30%;
+    margin-left: 5%;
+}
+.paragraph{
+    width: 40%;
+    margin-right: 5%;
+}
+.paragraph:nth-child(2){
+    margin-left: 15%;
+}
+.paragraph h2{
+    font-size: 27px;
+    letter-spacing: 0.7px;
+}
+.paragraph p{
+    font-size: 16px;
+}
+
+/*mobile screen*/
+@media (max-width:600px){
+    .hero{
+        background-size: contain;
+        background-repeat: repeat-y;
+        height: 900px;
+    }
+    .header{
+        flex-direction: column;
+        height: 150px;
+    }
+    .logo{
+        margin: 25px auto;
+    }
+    .button1{
+        margin: 10px auto;
+    }
+    .main{
+        margin: 25px auto;
+        flex-direction: column;
+    }
+    .paragraph-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .paragraph-main h1{
+        text-align: center;
+    }
+    .paragraph-main p{
+        text-align: justify;
+    }
+    .img-main{
+        width: 80%;
+        margin: -355px auto 0 auto;
+    }
+    .button2{
+        margin: 320px auto 0 auto;
+    }
+    .scroll{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card:first-child{
+        margin-top: 170px;
+    }
+    .card{
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+        padding: 25px;
+        margin: 30px auto;
+    }
+    .paragraph{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .paragraph h2{
+        margin-right: 10%;
+        text-align: right;
+    }
+    .paragraph p{
+        margin-left: 10%;
+        text-align: justify;
+    }
+    .card img{
+        width: 80%;
+        margin: 15px auto;
+    }
+    .paragraph:nth-child(2){
+        margin-left: 0;
+        margin: 10px auto;
+        width: 100%;
+    }
+    .paragraph:nth-child(2) h2{
+        margin-right: 5%;
+        width: 45%;
+        text-align: right;
+        font-size: 26px;
+        letter-spacing: normal;
+    }
+    .paragraph:nth-child(2) p{
+        margin-left: 5%;
+        width: 50%;
+    }
+}
